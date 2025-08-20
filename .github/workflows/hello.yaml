@@ -1,0 +1,13 @@
+name: Hello CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  log-text:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log text
+        runs: echo Hello CI
