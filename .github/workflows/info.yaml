@@ -13,5 +13,3 @@ jobs:
         uses: actions/checkout@v2
       - name: Log commit hash
         run: 'echo Commit hash: $GITHUB_SHA'
-      - name: Log with notice
-        run: 'echo ::notice::Commit hash: $GITHUB_SHA'
