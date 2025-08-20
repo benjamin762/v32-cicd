@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Log text
-        runs: echo Hello CI
+        run: echo Hello CI
