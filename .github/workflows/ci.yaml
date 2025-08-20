@@ -20,3 +20,5 @@ jobs:
         run: npm test
       - name: Build project
         run: npm run build
+      - name: Log branch name
+        run: set
