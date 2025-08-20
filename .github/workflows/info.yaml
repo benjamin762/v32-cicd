@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  jasdklfjaslkfj:
+  Log-commit-hash:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
