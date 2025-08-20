@@ -21,4 +21,4 @@ jobs:
       - name: Build project
         run: npm run build
       - name: Log branch name
-        run: set
+        run: echo Branch name $GITHUB_REF_NAME
