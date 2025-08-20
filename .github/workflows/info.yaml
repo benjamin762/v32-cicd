@@ -1,0 +1,15 @@
+name: Info Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  jasdklfjaslkfj:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Log commit hash
+        run: echo Commit hash: $GITHUB_SHA
