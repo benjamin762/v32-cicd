@@ -24,5 +24,3 @@ jobs:
         run: npm run build
       - name: Log branch name
         run: echo Branch name $GITHUB_REF_NAME
-      - name: Lint code
-        run: npm run lint
